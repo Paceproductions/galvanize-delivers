@@ -1,0 +1,38 @@
+.nav-wrapper {
+  background-color: blue;
+}
+
+.parallax-container {
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px;
+  text-align: center;
+}
+
+li {
+  font-size: 25px;
+  margin-right: 20px;
+  float: right;
+}
+
+.btn {
+  height: 50px;
+  width: 250px;
+  background-color: red;
+}
+
+.card-panel {
+  transition: box-shadow .25s;
+  padding: 20px;
+  margin: 0.5rem 0 1rem 0;
+  border-radius: 2px;
+}
+
+.icon {
+  color:red;
+}
+
+p {
+  color: black;
+}
