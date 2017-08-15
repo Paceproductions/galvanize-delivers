@@ -3,15 +3,19 @@
 }
 
 .parallax-container {
-  background-image: url(../img/hero.jpg);
+  background-image: url("../img/hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 200px;
   text-align: center;
 }
 
-li {
-  font-size: 25px;
+.row {
+  max-width: : 20px;
+}
+
+li{
+  font-size: 20px;
   margin-right: 20px;
   float: right;
 }
@@ -22,17 +26,41 @@ li {
   background-color: red;
 }
 
-.card-panel {
-  transition: box-shadow .25s;
-  padding: 20px;
+.icon {
+  margin-bottom: 10px;
+  color:red;
   margin: 0.5rem 0 1rem 0;
   border-radius: 2px;
+  font-size: 30px;
+  display: inline-block;
 }
 
-.icon {
-  color:red;
+.material-icons {
+  padding-top: 10px;
+  text-align: center;
+  color: red;
+  font-size: 30px;
+  display: inline-block;
 }
 
-p {
+h5 {
   color: black;
+  font-size: 20px;
+}
+
+.page-footer {
+  background-color: blue;
+}
+
+h4 {
+  padding-top: 15px;
+}
+
+.grey-text{
+  font-size: 20px;
+  padding-top: -10px;
+}
+
+#move {
+  padding-top: 35px;
 }
