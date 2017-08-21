@@ -18,7 +18,6 @@ $(document).ready(function () {
     taxDeliver = parseFloat((totalPrice * .0845).toFixed(2))
     deliverTotal = (taxDeliver + totalPrice).toFixed(2)
     $('#tableCart').append(`<tr><td>${addItem}</td><td></td><td>${addPrice}</td></tr>`)
-    // $('#tableCart').text(addItem).append(`<tr><td></td><td></td><td>${addPrice}</td></tr>`)
     $('#totalPrice').text('$' + totalPrice)
     $('#taxDeliver').text('$' + taxDeliver)
     $('#deliverTotal').text('$' + deliverTotal)
@@ -27,16 +26,20 @@ $(document).ready(function () {
   $('#mvbtn').click(function() {
     $('#modal1').modal()
 
-
-
-
       $("#leftCol").empty()
       $("#rightCol").empty()
 
       $('.cartTable').clone().appendTo('#leftCol')
       $('.customerInfo').clone().appendTo('#rightCol')
-
-
-
     })
+
+    $('#secondModal').click(function() {
+      $('#modal2').modal()
+
+        $("#leftCol").empty()
+        $("#rightCol").empty()
+
+        $('.cartTable').clone().appendTo('#leftCol')
+        $('.customerInfo').clone().appendTo('#rightCol')
+      })
 })
