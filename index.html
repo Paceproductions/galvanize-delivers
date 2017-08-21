@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+    <script src="galDel.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
     <link type="text/css" rel="stylesheet" href="css/delivers.css" media="screen,projection" />
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
   </head>
 
   <body>
     <nav>
         <div class="nav-wrapper">
           <a href="#!" class="brand-logo">Galvanize Delivers</a>
-          <li><a href="collapsible.html">Order Delivery</a></li>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="collapsible.html">Order Delivery</a></li>
+          </ul>
         </div>
         <div class="parallax-container">
           <h1><strong>Fine Dining, Delivered.</strong></h1>
           <div class="parallax"><img src="img/hero.jpg"></div>
-            <button type="button" class="btn">Place an Order</button>
+            <a href="file:///Users/gregorypace/projects/galvanize-delivers/order.html" class="btn">Place an Order</button></a>
           </div>
           <div class="row">
-
-            <div class="col s4">
-              <i class="large material-icons">shopping_basket  <h2 class="icon">SHOP ONLINE</h2></i>
-              <h5>Using our convenient web app, you'll getall the power of gFood without having to
-              call your order in. Order in your pajamas,order 24 hours a day, order on Christmas,
-              we're here to serve you.</h5>
+            <div id="totalMargin">
+              <div class="col s4">
+                <i class="large material-icons">shopping_basket  <h2 class="icon">SHOP ONLINE</h2></i>
+                <h5>Using our convenient web app, you'll getall the power of gFood without having to
+                call your order in. Order in your pajamas,order 24 hours a day, order on Christmas,
+                we're here to serve you.</h5>
+              </div>
+              <div class="col s4">
+                <i class="material-icons">local_shipping  <h2 class="icon"> FAST DELIVERY</h2></i>
+                <h5>You've never seen ordering this quick. Our proprietary ordering rocket ship delivery
+                team allows you to spend less time being hungry, and more time doing what matters most
+                to you. We'd ask what that is, but gFood respects your privacy.</h5>
+              </div>
+              <div class="col s4">
+                <i class="material-icons">local_atm  <h2 class="icon">GREAT DEALS</h2></i>
+                <h5>Money: You've got it, we want it. But let it never be said we're not incredibly fair!
+                Burger sales? Check. Pizza sales? Check. Burger and pizza sales?? Check, check, check!
+                We seriously can't stop making deals.</h5>
+              </div>
             </div>
-            <div class="col s4">
-              <i class="material-icons">local_shipping  <h2 class="icon"> FAST DELIVERY</h2></i>
-              <h5>You've never seen ordering this quick. Our proprietary ordering rocket ship delivery
-              team allows you to spend less time being hungry, and more time doing what matters most
-              to you. We'd ask what that is, but gFood respects your privacy.</h5>
-            </div>
-            <div class="col s4">
-              <i class="material-icons">local_atm  <h2 class="icon">GREAT DEALS</h2></i>
-              <h5>Money: You've got it, we want it. But let it never be said we're not incredibly fair!
-              Burger sales? Check. Pizza sales? Check. Burger and pizza sales?? Check, check, check!
-              We seriously can't stop making deals.</h5>
-            </div>
-
           </div>
         </div>
         <footer class="page-footer">

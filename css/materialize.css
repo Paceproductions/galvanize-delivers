@@ -2830,7 +2830,7 @@ video.responsive-video {
 .breadcrumb i.material-icons {
   display: inline-block;
   float: left;
-  font-size: 24px;
+  font-size: 44px;
 }
 
 .breadcrumb:before {
@@ -2983,7 +2983,7 @@ footer.page-footer .footer-copyright {
   height: 50px;
   line-height: 50px;
   color: rgba(255, 255, 255, 0.8);
-  background-color: blue;
+  background-color: grey;
 }
 
 table, th, td {
@@ -5415,8 +5415,8 @@ a.waves-effect .waves-ripple {
 .chip i.material-icons {
   cursor: pointer;
   float: right;
-  font-size: 16px;
-  line-height: 32px;
+  font-size:36px;
+  line-height: 320px;
   padding-left: 8px;
 }
 
@@ -5872,7 +5872,7 @@ textarea.materialize-textarea + label:after {
   right: 1rem;
   color: transparent;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 4rem;
   transition: .3s color;
 }
 

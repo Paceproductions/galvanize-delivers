@@ -10,6 +10,20 @@
   text-align: center;
 }
 
+#totalMargin {
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+.brand-logo{
+ margin-left: 20px;
+}
+
+h1 {
+  font-size: 80px;
+  margin-top: -40px;
+}
+
 .row {
   max-width: : 20px;
 }
@@ -21,14 +35,21 @@ li{
 }
 
 .btn {
-  height: 50px;
-  width: 250px;
-  background-color: red;
+  padding-top: 18px;
+  font-size: 20px;
+  height: 70px;
+  width: 240px;
+  background-color: #F06778;
+  border-radius: 5px;
+}
+
+#mvbtn {
+  margin-left: 160px;
 }
 
 .icon {
   margin-bottom: 10px;
-  color:red;
+  color: #F06778;
   margin: 0.5rem 0 1rem 0;
   border-radius: 2px;
   font-size: 30px;
@@ -38,8 +59,8 @@ li{
 .material-icons {
   padding-top: 10px;
   text-align: center;
-  color: red;
-  font-size: 30px;
+  color: #F06778;
+  image-: 50px;
   display: inline-block;
 }
 
@@ -63,4 +84,40 @@ h4 {
 
 #move {
   padding-top: 35px;
+}
+
+.card {
+  height: 370px;
+  width: 250px;
+}
+
+.btn_burger {
+  color: #F06778;
+  font-size: 20px;
+  width:200px;
+  margin-right:30px;
+}
+
+h2 {
+  margin-left:20px;
+}
+
+.title {
+  display: inline-block;
+}
+
+#push {
+  margin-left: 400px;
+}
+
+.tableColor {
+  background-color: #D3D3D3;
+}
+
+#tableBody {
+  tableBody: 200px;
+}
+
+#footerBtn {
+  margin-left: 700px;
 }
